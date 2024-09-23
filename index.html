@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <div class="container">
+        <form>
+            <h1 class="main">Login</h1> 
+            <div class="input-field">
+                <div class="input-username">
+                    <input class="username" type="text"  placeholder="Username or Email address" required>
+                    <ion-icon name="person"></ion-icon> 
+                </div>
+                <div class="input-password">
+                    <input class="password" type="password" placeholder="Password" required>
+                    <ion-icon name="lock-closed"></ion-icon> 
+                </div>
+            </div>
+            <div class="remember-forgot">
+                <lable>
+                    <input type="checkbox"><span>Remember me</span>  
+                </lable>
+                <a class="forgot-key" href="#">Forgot password?</a>
+            </div>
+            <button class="btn-submit" type="submit">Login</button>
+            <div class="create">
+                <span>Don't have an account?</span>
+                <a class="ct" href="#">Create</a> 
+            </div>
+    </form>
+   </div>
+    
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
